@@ -34,4 +34,4 @@ def knn_search(image_name, k):
         result_final.append(result.get())
     return result_final
 
-print(knn_search("C:/Users/Wese/Downloads/lfw/Aaron_Eckhart_0001.jpg", 5))
+
