@@ -3,7 +3,7 @@ import face_recognition
 from queue import PriorityQueue
 
 images = glob.glob("C:/Users/Wese/Downloads/lfw/*")
-images = images[:100]
+
 def range_search(image_name, r):
     image = face_recognition.load_image_file(image_name)
     image_encoding = face_recognition.face_encodings(image)[0]
